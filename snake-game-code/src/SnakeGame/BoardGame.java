@@ -62,9 +62,9 @@ public class BoardGame extends JPanel implements ActionListener {
 	//get snake's head and snake's body images
 	private void getSnakeImage() 
 	{
-		ImageIcon bd= new ImageIcon("src/Pictures/head.png");
+		ImageIcon bd= new ImageIcon(getClass().getResource("head.png"));
 		body = bd.getImage();
-		ImageIcon hd = new ImageIcon("src/Pictures/apple.png");
+		ImageIcon hd = new ImageIcon(getClass().getResource("apple.png"));
 		head = hd.getImage();
 	}
 	
